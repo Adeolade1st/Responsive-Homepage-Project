@@ -3,20 +3,66 @@
     --secondary-Font-Style: 'Playfair Display', serif;
 }
 .container{
-    text-align: center;
-      
+    text-align: center;   
 }
 
-p{
-    color: #272142;
-        text-align: center;
-        font-family: var(--primary-Font-Style);
-        font-size: 2.25rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-top: 150px;
+.fs{
+    font-size: 64px;
+    font-weight: 700px;
+    font-family: var(--secondary-Font-Style);
+    color: black;
+    margin-left: 5px;
 }
+
+.about-yogut{
+    font-family: var(--primary-Font-Style);
+    opacity: 70%;
+    size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.col{
+    margin-left: 67px;
+    padding-left: 10px;
+}
+.btn-branding {
+    background: #6C63FF;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.hello {
+    color: #272142;
+    text-align: center;
+    font-family: var(--primary-Font-Style);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 150px;
+}
+
+.btn-branding:hover {
+    background-color: #6C63FF;
+}
+
+.description{
+    background-color: white;
+}
+
+h4{
+    text-align: center;
+    font-family: var(--primary-Font-Style);
+    size: 10px;
+    color: #272142;
+    margin-top: 40px;
+}
+
 
 h1{
     font-family:var(--secondary-Font-Style);
@@ -40,26 +86,15 @@ h3{
         color: black;
 }
 
-body{
-    background-color: #F9F7FE;
-}
-
 a{
     text-decoration: none;
     color: white;
 }
 
-.btn-branding {
-    background: #6C63FF;
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-}
 
-.btn-branding:hover{
-    background-color: #6C63FF;
+
+body{
+    background-color: #F9F7FE;
 }
 
 
