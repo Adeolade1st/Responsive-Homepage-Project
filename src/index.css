@@ -1,3 +1,24 @@
+
+
+@media (max-width: 900px) {
+    .heading {
+        font-size: 50px;
+        text-align: center;
+        color: #6C63FF;
+      
+    }
+    }
+
+    @media (max-width: 900px){
+        .fs {
+                font-size: 40px;
+                text-align: center;
+                color: #6C63FF;
+                
+            }
+        }
+    
+
 :root {
     --primary-Font-Style: 'Poppins', sans-serif;
     --secondary-Font-Style: 'Playfair Display', serif;
