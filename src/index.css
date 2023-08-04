@@ -1,32 +1,14 @@
 :root {
     --primary-Font-Style: 'Poppins', sans-serif;
     --secondary-Font-Style: 'Playfair Display', serif;
+    --background-color: #F9F7FE;
 }
-.container{
+.hero{
     text-align: center;   
+    background-color: var(--background-color);
 }
 
-.fs{
-    font-size: 64px;
-    font-weight: 700px;
-    font-family: var(--secondary-Font-Style);
-    color: black;
-    margin-left: 5px;
-}
 
-.about-yogut{
-    font-family: var(--primary-Font-Style);
-    opacity: 70%;
-    size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-
-}
-
-.col{
-    margin-left: 67px;
-    padding-left: 10px;
-}
 .btn-branding {
     background: #6C63FF;
     border-radius: 4px;
@@ -51,8 +33,59 @@
     background-color: #6C63FF;
 }
 
+.feature{
+    text-align: center;
+    line-height: 27px;
+    font-weight: 400px;
+    size: 18px;
+    color: black;
+    font-family: var(--primary-Font-Style);
+       
+}
+
+.fs{
+    font-family: var(--secondary-Font-Style);
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 90px;
+    line-height: 76.8px;
+    padding-left: 40px;
+     padding-right: 40px;
+    
+    
+}
+
 .description{
+    font-family: var(--primary-Font-Style);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 70%;
+    margin-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.btn-branding-outline{
+    margin-left: 40px;
     background-color: white;
+    color: #6C63FF;
+    border: 1px #6C63FF solid;
+    padding-top: 18px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500px;
+    font-family: var(--primary-Font-Style);
+    width: 200px;
+    height: 60px;
+    
+}
+
+.btn-branding-outline:hover{
+    background-color: white;
+    border-color: #6C63FF;
+    color: black;
 }
 
 h4{
@@ -93,9 +126,7 @@ a{
 
 
 
-body{
-    background-color: #F9F7FE;
-}
+
 
 
 
