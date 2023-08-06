@@ -1,31 +1,30 @@
-
-
 @media (max-width: 900px) {
     .heading {
         font-size: 50px;
         text-align: center;
         color: #6C63FF;
-      
-    }
-    }
 
-    @media (max-width: 900px){
-        .fs {
-                font-size: 40px;
-                text-align: center;
-                color: #6C63FF;
-                
-            }
-        }
-    
+    }
+}
+
+@media (max-width: 900px) {
+    .fs {
+        font-size: 40px;
+        text-align: center;
+        color: #6C63FF;
+
+    }
+}
+
 
 :root {
     --primary-Font-Style: 'Poppins', sans-serif;
     --secondary-Font-Style: 'Playfair Display', serif;
     --background-color: #F9F7FE;
 }
-.hero{
-    text-align: center;   
+
+.hero {
+    text-align: center;
     background-color: var(--background-color);
 }
 
@@ -54,29 +53,29 @@
     background-color: #6C63FF;
 }
 
-.feature{
+.feature {
     text-align: center;
     line-height: 27px;
     font-weight: 400px;
     size: 18px;
     color: black;
     font-family: var(--primary-Font-Style);
-       
+
 }
 
-.fs{
+.fs {
     font-family: var(--secondary-Font-Style);
     font-weight: 700;
     font-size: 64px;
     margin-top: 90px;
     line-height: 76.8px;
     padding-left: 40px;
-     padding-right: 40px;
-    
-    
+    padding-right: 40px;
+
+
 }
 
-.description{
+.description {
     font-family: var(--primary-Font-Style);
     font-weight: 400;
     font-size: 16px;
@@ -88,7 +87,7 @@
 
 }
 
-.btn-branding-outline{
+.btn-branding-outline {
     margin-left: 40px;
     background-color: white;
     color: #6C63FF;
@@ -100,16 +99,72 @@
     font-family: var(--primary-Font-Style);
     width: 200px;
     height: 60px;
-    
+
 }
 
-.btn-branding-outline:hover{
+.btn-branding-outline:hover {
     background-color: white;
     border-color: #6C63FF;
     color: black;
 }
 
-h4{
+.col{
+   
+   color: blue;
+   display: flex;
+   justify-content: center;
+   opacity: 60%;
+   
+   
+}
+
+.fa-facebook{
+    margin-right: 30px;
+}
+
+.fa-twitter{
+margin-right: 30px;
+}
+.container-work{
+    background-color: #F9F7FE;
+    padding: 50px 50px;
+    max-width: 1160px;
+    padding-right: 10px ;
+
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.work-enquiry{
+
+    font-size: 48px;
+    font-weight: 700px;
+    font-family: var(--secondary-Font-Style);
+
+}
+
+.work-together{
+    font-family: var(--primary-Font-Style);
+    font-weight: 400px;
+    font-size: 18px;
+    color: #272142B2;
+    opacity: 70%;
+    line-height: 27px;
+
+}
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+
+
+
+
+h4 {
     text-align: center;
     font-family: var(--primary-Font-Style);
     size: 10px;
@@ -118,38 +173,29 @@ h4{
 }
 
 
-h1{
-    font-family:var(--secondary-Font-Style);
-        font-size: 96px;
-        font-weight: 700;
-        line-height: 128px;
-        letter-spacing: 0em;
-        text-align: left;
-        text-align: center;
-        color: black;
-}
-
-h3{
-    
+h1 {
     font-family: var(--secondary-Font-Style);
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: black;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 128px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    color: black;
 }
 
-a{
+h3 {
+
+    font-family: var(--secondary-Font-Style);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
-
-
-
-
-
-
-
-
-    
