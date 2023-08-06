@@ -108,37 +108,39 @@
     color: black;
 }
 
-.col{
-   
-   color: blue;
-   display: flex;
-   justify-content: center;
-   opacity: 60%;
-   
-   
+.col {
+
+    color: blue;
+    display: flex;
+    justify-content: center;
+    opacity: 60%;
+
+
 }
 
-.fa-facebook{
+.fa-facebook {
     margin-right: 30px;
 }
 
-.fa-twitter{
-margin-right: 30px;
+.fa-twitter {
+    margin-right: 30px;
 }
-.container-work{
+
+.container-work {
     background-color: #F9F7FE;
     padding: 50px 50px;
     max-width: 1160px;
-    padding-right: 10px ;
+    padding-right: 10px;
     margin-bottom: 50px;
+    margin-top: 100px;
 
 }
 
-.contact-info{
+.contact-info {
     text-align: center;
 }
 
-.work-enquiry{
+.work-enquiry {
 
     font-size: 48px;
     font-weight: 700px;
@@ -146,7 +148,7 @@ margin-right: 30px;
 
 }
 
-.work-together{
+.work-together {
     font-family: var(--primary-Font-Style);
     font-weight: 400px;
     font-size: 18px;
@@ -156,10 +158,10 @@ margin-right: 30px;
 
 }
 
-.container{
+.container {
     margin-top: 60px;
     margin-bottom: 60px;
-   
+
 }
 
 
@@ -176,11 +178,7 @@ h4 {
 
 h1 {
     font-family: var(--secondary-Font-Style);
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 128px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-size: 36px;
     text-align: center;
     color: black;
 }
