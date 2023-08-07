@@ -1,6 +1,235 @@
-h1{
-  
-        font-family: 'Playfair Display', serif;
+@media (max-width: 900px) {
+        .heading {
+                font-size: 50px;
+                text-align: center;
+                color: #6C63FF;
+
+        }
 }
-      
+
+@media (max-width: 900px) {
+        .fs {
+                font-size: 40px;
+                text-align: center;
+                color: #6C63FF;
+
+        }
+}
+
+
+:root {
+        --primary-Font-Style: 'Poppins', sans-serif;
+        --secondary-Font-Style: 'Playfair Display', serif;
+        --background-color: #F9F7FE;
+}
+
+.hero {
+        text-align: center;
+        background-color: var(--background-color);
+}
+
+
+.btn-branding {
+        background-color: #BBCEE4;
+        border-radius: 4px;
+        color: white;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+        margin-left: 230px;
+}
+
+.btn-branding:hover {
+        background-color: #BBCEE4;
+
+}
+
+.hello {
+        color: #272142;
+        text-align: center;
+        font-family: var(--primary-Font-Style);
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 150px;
+}
+
+
+.feature {
+        text-align: center;
+        line-height: 27px;
+        font-weight: 400px;
+        size: 18px;
+        color: black;
+        font-family: var(--primary-Font-Style);
+
+}
+
+.fs {
+        font-family: var(--secondary-Font-Style);
+        font-weight: 400;
+        font-size: 44px;
+        margin-top: 90px;
+        line-height: 76.8px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+
+}
+
+.description {
+        font-family: var(--primary-Font-Style);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        opacity: 70%;
+        margin-bottom: 48px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+}
+
+.btn-branding-outline {
+        margin-left: 220px;
+        background-color: #BBCEE4;
+        color: black;
+        border: 1px #BBCEE4 solid;
+        padding-top: 18px;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500px;
+        font-family: var(--primary-Font-Style);
+        width: 200px;
+        height: 60px;
+        margin-top: -50px;
+        
+
+}
+
+.btn-branding-outline:hover {
+        background-color: #BBCEE4;
+        border-color: #BBCEE4;
+        color: black;
+}
+
+.col {
+
+        color: blue;
+        display: flex;
+        justify-content: center;
+        opacity: 60%;
+
+
+}
+
+.fa-facebook {
+        margin-right: 30px;
+}
+
+.fa-twitter {
+        margin-right: 30px;
+}
+
+.container-work {
+        background-color: #F9F7FE;
+        padding: 50px 50px;
+        max-width: 1160px;
+        padding-right: 40px;
+        margin-left: 80px;
+        margin-bottom: 50px;
+
+}
+
+.contact-info {
+        text-align: center;
+        background-color: #BBCEE4;
+}
+
+.contact {
+        color: black;
+        text-decoration: none;
+        font-family: var(--primary-Font-Style);
        
+}
+
+.work-enquiry {
+
+        font-size: 48px;
+        font-weight: 700px;
+        font-family: var(--secondary-Font-Style);
+        
+}
+
+.container-work{
+        background-color: #D6DFED;
+       
+}
+
+.work-together {
+        font-family: var(--primary-Font-Style);
+        font-weight: 400px;
+        font-size: 18px;
+        color: #272142B2;
+        opacity: 70%;
+        line-height: 27px;
+
+}
+
+.send{
+        text-align: center;
+        font-family: var(--primary-Font-Style);
+        font-size: 14px;
+        text-decoration: none;
+ 
+}
+
+.send:hover{
+        columns:#BBCEE4;
+}
+
+.container {
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+}
+
+
+
+
+
+
+h4 {
+        text-align: center;
+        font-family: var(--primary-Font-Style);
+        size: 10px;
+        color: #272142;
+        margin-top: 40px;
+}
+
+
+h1 {
+        font-family: var(--secondary-Font-Style);
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 128px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+}
+
+body{
+       background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+}
+
+h3 {
+
+        font-family: var(--secondary-Font-Style);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+}
+

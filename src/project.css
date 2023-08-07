@@ -20,12 +20,11 @@
 :root {
     --primary-Font-Style: 'Poppins', sans-serif;
     --secondary-Font-Style: 'Playfair Display', serif;
-    --background-color: #F9F7FE;
 }
 
 .hero {
     text-align: center;
-    background-color: var(--background-color);
+background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
 }
 
 
@@ -139,6 +138,9 @@
 .contact-info {
     text-align: center;
 }
+.container-work {
+    background-color: #D6DFED;
+}
 
 .work-enquiry {
 
@@ -165,7 +167,9 @@
 }
 
 
-
+body {
+background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+}
 
 h4 {
     text-align: center;
