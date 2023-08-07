@@ -29,12 +29,18 @@ background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234
 
 
 .btn-branding {
-    background: #6C63FF;
+    background-color: #BBCEE4;
     border-radius: 4px;
-    color: white;
+    color: black;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    margin-left: 230px;
+}
+
+.btn-branding:hover {
+    background-color: #BBCEE4;
+
 }
 
 .hello {
@@ -48,9 +54,7 @@ background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234
     padding-top: 150px;
 }
 
-.btn-branding:hover {
-    background-color: #6C63FF;
-}
+
 
 .feature {
     text-align: center;
@@ -101,10 +105,22 @@ background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234
 
 }
 
+.project{
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--primary-Font-Style);
+}
+
 .btn-branding-outline:hover {
     background-color: white;
     border-color: #6C63FF;
     color: black;
+}
+
+.contactlink{
+    text-decoration: none;
+    color: black;
+    font-family: var(--primary-Font-Style);
 }
 
 .col {
@@ -160,6 +176,18 @@ background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234
 
 }
 
+.send {
+    text-align: center;
+    font-family: var(--primary-Font-Style);
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.send:hover {
+    columns: #BBCEE4;
+}
+
 .container {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -198,7 +226,3 @@ h3 {
     color: black;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
