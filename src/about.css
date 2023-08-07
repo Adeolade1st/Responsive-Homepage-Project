@@ -7,13 +7,15 @@
         }
 }
 
-@media (max-width: 900px) {
-        .fs {
-                font-size: 40px;
-                text-align: center;
-                color: #6C63FF;
 
-        }
+        @media (max-width: 900px) {
+                        .work-enquiry {
+                                font-size: 30px;
+                                text-align: center;
+                                font-family: var(--secondary-Font-Style);
+        
+        
+                        }
 }
 
 
@@ -36,7 +38,7 @@
         font-size: 18px;
         line-height: 27px;
         padding: 15px 30px;
-        margin-left: 230px;
+       
 }
 
 .btn-branding:hover {

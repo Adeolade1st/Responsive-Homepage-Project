@@ -6,12 +6,12 @@
 
     }
 }
-
 @media (max-width: 900px) {
-    .fs {
-        font-size: 40px;
+    .work-enquiry {
+        font-size: 30px;
         text-align: center;
-        color: #6C63FF;
+        font-family: var(--secondary-Font-Style);
+
 
     }
 }
@@ -22,10 +22,6 @@
     --secondary-Font-Style: 'Playfair Display', serif;
 }
 
-.hero {
-    text-align: center;
-background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
-}
 
 
 .btn-branding {
@@ -35,7 +31,7 @@ background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
-    margin-left: 230px;
+    
 }
 
 .btn-branding:hover {
@@ -78,17 +74,7 @@ background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234
 
 }
 
-.description {
-    font-family: var(--primary-Font-Style);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    opacity: 70%;
-    margin-bottom: 48px;
-    padding-left: 40px;
-    padding-right: 40px;
 
-}
 
 .btn-branding-outline {
     margin-left: 40px;
@@ -210,9 +196,10 @@ h4 {
 
 h1 {
     font-family: var(--secondary-Font-Style);
-    font-size: 36px;
+    font-size: 64px;
     text-align: center;
     color: black;
+    margin-bottom: 100px;
 }
 
 h3 {

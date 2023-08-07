@@ -26,16 +26,22 @@
 .hero {
     text-align: center;
     background-color: var(--background-color);
+    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
 }
 
 
 .btn-branding {
-    background: #6C63FF;
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+    background-color: #BBCEE4;
+        border-radius: 4px;
+        color: black;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+        font-family: var(--primary-Font-Style);
+}
+
+.btn-branding:hover {
+    background-color: #BBCEE4;
 }
 
 .hello {
@@ -49,9 +55,7 @@
     padding-top: 150px;
 }
 
-.btn-branding:hover {
-    background-color: #6C63FF;
-}
+
 
 .feature {
     text-align: center;
@@ -89,9 +93,9 @@
 
 .btn-branding-outline {
     margin-left: 40px;
-    background-color: white;
-    color: #6C63FF;
-    border: 1px #6C63FF solid;
+    background-color: #BBCEE4;
+    color: black;
+    border: 1px #BBCEE4 solid;
     padding-top: 18px;
     font-size: 18px;
     line-height: 24px;
@@ -103,8 +107,8 @@
 }
 
 .btn-branding-outline:hover {
-    background-color: white;
-    border-color: #6C63FF;
+    background-color: #BBCEE4;
+    border-color: #BBCEE4;
     color: black;
 }
 
@@ -126,11 +130,13 @@
 margin-right: 30px;
 }
 .container-work{
-    background-color: #F9F7FE;
+    background-color: #D6DFED;
     padding: 50px 50px;
     max-width: 1160px;
-    padding-right: 10px ;
+    padding-left: 80px ;
     margin-bottom: 50px;
+    margin-top: 100px;
+
 
 }
 
@@ -138,9 +144,7 @@ margin-right: 30px;
     text-align: center;
 }
 
-.container-work {
-    background-color: #D6DFED;
-}
+
 
 .work-enquiry{
 
@@ -164,6 +168,10 @@ margin-right: 30px;
     margin-top: 60px;
     margin-bottom: 60px;
    
+}
+
+.myMail{
+    text-align: center;
 }
 
 body {
@@ -202,7 +210,8 @@ h3 {
     color: black;
 }
 
-a {
+.contactlink {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-family: var(--primary-Font-Style);
 }
