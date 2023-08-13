@@ -148,11 +148,16 @@
         background-color: #BBCEE4;
 }
 
-.contact {
+.contact-link {
         color: black;
         text-decoration: none;
         font-family: var(--primary-Font-Style);
+        font-size: 18px;
        
+}
+
+.contact-link:hover{
+        color: #6C63FF;
 }
 
 .work-enquiry {
@@ -178,23 +183,28 @@
 
 }
 
-.send{
-        text-align: center;
-        font-family: var(--primary-Font-Style);
-        font-size: 14px;
-        text-decoration: none;
- 
-}
 
-.send:hover{
-        columns:#BBCEE4;
-}
+        a {
+                      text-align: center;
+                        text-decoration: none;
+                        font-size: 24px;
+                        font-weight: 500px;
+                        font-family: var(--primary-Font-Style);
+                        color: black;
+                }
+
+                a:hover{
+                        color: #6C63FF;
+                }
+
 
 .container {
         margin-top: 60px;
         margin-bottom: 60px;
 
 }
+
+
 
 
 

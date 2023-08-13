@@ -30,83 +30,76 @@
     color: black;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 12px 25px;
+    margin-left: 30px;
+    
     
 }
 
-.btn-branding:hover {
-    background-color: #BBCEE4;
+.btn-branding-yogurt {
+        background-color: #BBCEE4;
+        border-radius: 4px;
+        color: black;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 12px 25px;
+        margin-left: 150px;
 
-}
+    }
 
-.hello {
-    color: #272142;
-    text-align: center;
-    font-family: var(--primary-Font-Style);
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-top: 150px;
-}
+    .project-yogurt{
+        
+            font-size: 24px;
+            font-family: var(--primary-Font-Style);
+            margin-left: 150px;
+            font-weight: 700px;
+
+    }
+    .developer-yogurt{
+            font-size: 14px;
+            font-family: var(--primary-Font-Style);
+           margin-right: 170px;
+            font-weight: 400px;
+    }
+
+    .btn-branding-weather{
+            background-color: #BBCEE4;
+            border-radius: 4px;
+            color: black;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 15px 30px;
+            margin-left: 230px;
+    
+        }
+
+                .project-weather {
+        
+                    font-size: 24px;
+                    font-family: var(--primary-Font-Style);
+                    margin-left: 210px;
+                    font-weight: 700px;
+        
+                }
+        
+                .developer-weather {
+                    font-size: 14px;
+                    font-family: var(--primary-Font-Style);
+                    margin-right: 60px;
+                    font-weight: 400px;
+                }
 
 
 
-.feature {
-    text-align: center;
-    line-height: 27px;
-    font-weight: 400px;
-    size: 18px;
-    color: black;
-    font-family: var(--primary-Font-Style);
 
-}
-
-.fs {
-    font-family: var(--secondary-Font-Style);
-    font-weight: 700;
-    font-size: 64px;
-    margin-top: 90px;
-    line-height: 76.8px;
-    padding-left: 40px;
-    padding-right: 40px;
-
-
-}
-
-
-
-.btn-branding-outline {
-    margin-left: 40px;
-    background-color: white;
-    color: #6C63FF;
-    border: 1px #6C63FF solid;
-    padding-top: 18px;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500px;
-    font-family: var(--primary-Font-Style);
-    width: 200px;
-    height: 60px;
-
-}
-
-.project{
-    text-align: center;
-    font-size: 24px;
-    font-family: var(--primary-Font-Style);
-}
-
-.btn-branding-outline:hover {
-    background-color: white;
-    border-color: #6C63FF;
-    color: black;
-}
-
-.contactlink{
+.contact-link{
     text-decoration: none;
     color: black;
     font-family: var(--primary-Font-Style);
+}
+
+.contact-link:hover{
+    color: #6C63FF;
 }
 
 .col {
@@ -162,17 +155,7 @@
 
 }
 
-.send {
-    text-align: center;
-    font-family: var(--primary-Font-Style);
-    font-size: 14px;
-    text-decoration: none;
 
-}
-
-.send:hover {
-    columns: #BBCEE4;
-}
 
 .container {
     margin-top: 60px;

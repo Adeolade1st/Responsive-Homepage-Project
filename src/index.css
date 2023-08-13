@@ -42,6 +42,7 @@
 
 .btn-branding:hover {
     background-color: #BBCEE4;
+    color: #6C63FF;
 }
 
 .hello {
@@ -109,7 +110,7 @@
 .btn-branding-outline:hover {
     background-color: #BBCEE4;
     border-color: #BBCEE4;
-    color: black;
+    color: #6C63FF;
 }
 
 .col{
@@ -170,8 +171,29 @@ margin-right: 30px;
    
 }
 
-.myMail{
+
+.contactlink {
+    text-decoration: none;
+    color: black;
+    font-family: var(--primary-Font-Style);
+}
+
+.contactlink:hover {
+    color: #6C63FF;
+}
+
+a{
     text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: var(--primary-Font-Style);
+    color: black;
+}
+
+a:hover{
+    color:#6C63FF;
+
 }
 
 body {
@@ -210,8 +232,3 @@ h3 {
     color: black;
 }
 
-.contactlink {
-    text-decoration: none;
-    color: black;
-    font-family: var(--primary-Font-Style);
-}
