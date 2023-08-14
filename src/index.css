@@ -32,7 +32,7 @@
 .hero {
     text-align: center;
     background-color: var(--background-color);
-   
+    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
 }
 
 
@@ -44,13 +44,11 @@
         line-height: 27px;
         padding: 15px 30px;
         font-family: var(--primary-Font-Style);
-        box-shadow: 2px 3px 5px 1px gray;
 }
 
 .btn-branding:hover {
     background-color: #BBCEE4;
     color: #6C63FF;
-    font-size: 20px;
 }
 
 .hello {
@@ -68,9 +66,9 @@
 
 .feature {
     text-align: center;
-    line-height: 2.5;
-    font-weight: 30px;
-    size: 12px;
+    line-height: 27px;
+    font-weight: 400px;
+    size: 18px;
     color: black;
     font-family: var(--primary-Font-Style);
 
@@ -113,7 +111,6 @@
     width: 200px;
     height: 60px;
     margin-top: 50px;
-    box-shadow: 2px 3px 5px 1px gray;
 
 }
 
@@ -121,7 +118,6 @@
     background-color: #BBCEE4;
     border-color: #BBCEE4;
     color: #6C63FF;
-    
 }
 
 .col{
@@ -137,11 +133,6 @@
 .img-fluid{
     margin-top: 65px;
 }
-
-
-
-
-
 
 .fa-github{
     margin-right: 40px;
@@ -185,8 +176,7 @@ color: #6C63FF;
     max-width: 960px;
     padding-left: 80px ;
     margin-bottom: 50px;
-    margin-top: 180px;
-    box-shadow: 2px 3px 5px 5px grey;
+    margin-top: 100px;
 
 
 }
@@ -246,7 +236,9 @@ a:hover{
 
 }
 
-
+body {
+background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+}
 
 
 h4 {
