@@ -3,3 +3,26 @@ https://adeola-ilavbare-portfolio.onrender.com/ https:
 //adeola-ilavbare-myportfolio.onrender.com/contact.html
 "https://github.com/Adeolade1st" "https://twitter.com/raisingsrs"
 "https://www.linkedin.com/in/adeola-ilavbare-98a621260"
+
+
+
+.img-fluid-yogot{
+    border: solid 3px grey;
+    border-radius: 4px;
+    box-shadow: 2px 3px 5px 1px gray;
+
+}
+
+.img-fluid-weather{
+    border: solid 3px grey;
+        border-radius: 4px;
+        box-shadow: 2px 3px 5px 1px gray;
+        margin-top: 100px;
+}
+
+.img-fluid-dic{
+    border: solid 3px grey;
+        border-radius: 4px;
+        margin-top: 100px;
+        box-shadow: 2px 3px 5px 1px gray;
+}
