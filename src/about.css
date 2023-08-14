@@ -71,9 +71,9 @@
 .fs {
         font-family: var(--secondary-Font-Style);
         font-weight: 400;
-        font-size: 44px;
+        font-size: 34px;
         margin-top: 90px;
-        line-height: 76.8px;
+        line-height: 1.5;
         padding-left: 40px;
         padding-right: 40px;
 
@@ -84,7 +84,7 @@
         font-family: var(--primary-Font-Style);
         font-weight: 400;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 2.0;
         opacity: 70%;
         margin-bottom: 48px;
         padding-left: 40px;
@@ -93,7 +93,7 @@
 }
 
 .btn-branding-outline {
-        margin-left: 220px;
+        margin-left: 150px;
         background-color: #BBCEE4;
         color: black;
         border: 1px #BBCEE4 solid;
@@ -124,22 +124,52 @@
 
 
 }
+.fa-github {
+        margin-right: 40px;
+        margin-left: 40px;
+        color: #6C63FF;
+}
 
-.fa-facebook {
-        margin-right: 30px;
+.fa-github:hover {
+        background-color: white;
+        border-radius: 50px;
+        font-size: 40px;
+
 }
 
 .fa-twitter {
-        margin-right: 30px;
+        margin-right: 40px;
+        margin-left: 40px;
+        color: #6C63FF;
+}
+
+.fa-twitter:hover {
+
+        border-radius: 50px;
+        font-size: 40px;
+}
+
+.fa-linkedin {
+        margin-right: 40px;
+        margin-left: 40px;
+        color: #6C63FF;
+}
+
+.fa-linkedin:hover {
+        background-color: white;
+        border-radius: 4px;
+        font-size: 40px;
 }
 
 .container-work {
-        background-color: #F9F7FE;
+        background-color: #D6DFED;
         padding: 50px 50px;
-        max-width: 1160px;
-        padding-right: 40px;
-        margin-left: 80px;
+        max-width: 960px;
+        padding-left: 80px;
         margin-bottom: 50px;
+        margin-top: 100px;
+        margin-left: 100px;
+
 
 }
 
@@ -168,10 +198,7 @@
         
 }
 
-.container-work{
-        background-color: #D6DFED;
-       
-}
+
 
 .work-together {
         font-family: var(--primary-Font-Style);
@@ -184,23 +211,25 @@
 }
 
 
-        a {
-                      text-align: center;
-                        text-decoration: none;
-                        font-size: 24px;
-                        font-weight: 500px;
-                        font-family: var(--primary-Font-Style);
-                        color: black;
-                }
-
-                a:hover{
-                        color: #6C63FF;
-                }
-
+       
 
 .container {
         margin-top: 60px;
         margin-bottom: 60px;
+
+}
+
+a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 500px;
+        font-family: var(--primary-Font-Style);
+        color: black;
+}
+
+a:hover {
+        color: #6C63FF;
 
 }
 

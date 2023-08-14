@@ -31,34 +31,56 @@
     font-size: 18px;
     line-height: 27px;
     padding: 12px 25px;
-    margin-left: 30px;
+    margin-left: 80px;
     
     
 }
+
+.mb-5-dic{
+    margin-right:200px;
+}
+
+
 
 .btn-branding-yogurt {
         background-color: #BBCEE4;
         border-radius: 4px;
         color: black;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 27px;
         padding: 12px 25px;
-        margin-left: 150px;
+        margin-left: 100px;
 
+    }
+
+  
+
+    .project{
+        font-size: 24px;
+            font-family: var(--primary-Font-Style);
+            margin-left: 80px;
+            font-weight: 700px;
+    }
+
+    .developer{
+        font-size: 14px;
+            font-family: var(--primary-Font-Style);
+            margin-left: 80px;
+            font-weight: 400px;
     }
 
     .project-yogurt{
         
             font-size: 24px;
             font-family: var(--primary-Font-Style);
-            margin-left: 150px;
+            margin-left: 100px;
             font-weight: 700px;
 
     }
     .developer-yogurt{
             font-size: 14px;
             font-family: var(--primary-Font-Style);
-           margin-right: 170px;
+           margin-right: 250px;
             font-weight: 400px;
     }
 
@@ -69,7 +91,7 @@
             font-size: 18px;
             line-height: 27px;
             padding: 15px 30px;
-            margin-left: 230px;
+            margin-left: 200px;
     
         }
 
@@ -112,29 +134,55 @@
 
 }
 
-.fa-facebook {
-    margin-right: 30px;
+.fa-github {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #6C63FF;
+}
+
+.fa-github:hover {
+    background-color: white;
+    border-radius: 50px;
+    font-size: 40px;
+
 }
 
 .fa-twitter {
-    margin-right: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #6C63FF;
+}
+
+.fa-twitter:hover {
+
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+.fa-linkedin {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #6C63FF;
+}
+
+.fa-linkedin:hover {
+    background-color: white;
+    border-radius: 4px;
+    font-size: 40px;
 }
 
 .container-work {
-    background-color: #F9F7FE;
-    padding: 50px 50px;
-    max-width: 1160px;
-    padding-right: 10px;
+    background-color: #D6DFED;
+    padding: 30px 30px;
+    max-width: 960px;
+    padding-left: 80px;
     margin-bottom: 50px;
     margin-top: 100px;
 
-}
 
+}
 .contact-info {
     text-align: center;
-}
-.container-work {
-    background-color: #D6DFED;
 }
 
 .work-enquiry {
@@ -162,6 +210,20 @@
     margin-bottom: 60px;
 
 }
+
+a{
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 500px;
+        font-family: var(--primary-Font-Style);
+        color: black;
+    }
+
+    a:hover {
+        color: #6C63FF;
+
+    }
 
 
 body {
@@ -195,4 +257,5 @@ h3 {
     text-align: center;
     color: black;
 }
+
 

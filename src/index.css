@@ -1,17 +1,23 @@
 @media (max-width: 900px) {
-    .heading {
+    .h1 {
         font-size: 50px;
         text-align: center;
-        color: #6C63FF;
+        
+        line-height: 100px;
 
+    }
+
+    .hello{
+        font-size: 30px;
+        font-weight: 400;
     }
 }
 
 @media (max-width: 900px) {
     .fs {
-        font-size: 40px;
+        font-size: 20px;
         text-align: center;
-        color: #6C63FF;
+    
 
     }
 }
@@ -84,7 +90,7 @@
     font-family: var(--primary-Font-Style);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2.0;
     opacity: 70%;
     margin-bottom: 48px;
     padding-left: 40px;
@@ -104,6 +110,7 @@
     font-family: var(--primary-Font-Style);
     width: 200px;
     height: 60px;
+    margin-top: 50px;
 
 }
 
@@ -123,17 +130,50 @@
    
 }
 
-.fa-facebook{
-    margin-right: 30px;
+.img-fluid{
+    margin-top: 65px;
+}
+
+.fa-github{
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #6C63FF;
+}
+
+.fa-github:hover{
+    background-color: white;
+   border-radius: 50px;
+   font-size: 40px;
+
 }
 
 .fa-twitter{
-margin-right: 30px;
+margin-right: 40px;
+margin-left: 40px;
+color: #6C63FF;
+}
+
+.fa-twitter:hover{
+    
+        border-radius: 50px;
+        font-size: 40px;
+}
+
+.fa-linkedin{
+margin-right: 40px;
+margin-left: 40px;
+color: #6C63FF;
+}
+
+.fa-linkedin:hover{
+    background-color: white;
+        border-radius: 4px;
+        font-size: 40px;
 }
 .container-work{
     background-color: #D6DFED;
     padding: 50px 50px;
-    max-width: 1160px;
+    max-width: 960px;
     padding-left: 80px ;
     margin-bottom: 50px;
     margin-top: 100px;
@@ -212,11 +252,10 @@ h4 {
 
 h1 {
     font-family: var(--secondary-Font-Style);
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 128px;
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 88px;
     letter-spacing: 0em;
-    text-align: left;
     text-align: center;
     color: black;
 }
