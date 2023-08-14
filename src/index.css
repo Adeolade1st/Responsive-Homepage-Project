@@ -44,11 +44,13 @@
         line-height: 27px;
         padding: 15px 30px;
         font-family: var(--primary-Font-Style);
+        box-shadow: 2px 3px 5px 1px gray;
 }
 
 .btn-branding:hover {
     background-color: #BBCEE4;
     color: #6C63FF;
+    font-size: 20px;
 }
 
 .hello {
@@ -66,9 +68,9 @@
 
 .feature {
     text-align: center;
-    line-height: 27px;
-    font-weight: 400px;
-    size: 18px;
+    line-height: 2.5;
+    font-weight: 30px;
+    size: 12px;
     color: black;
     font-family: var(--primary-Font-Style);
 
@@ -111,6 +113,7 @@
     width: 200px;
     height: 60px;
     margin-top: 50px;
+    box-shadow: 2px 3px 5px 1px gray;
 
 }
 
@@ -118,6 +121,7 @@
     background-color: #BBCEE4;
     border-color: #BBCEE4;
     color: #6C63FF;
+    
 }
 
 .col{
@@ -133,6 +137,30 @@
 .img-fluid{
     margin-top: 65px;
 }
+
+.img-fluid-yogot{
+    border: solid 3px grey;
+    border-radius: 4px;
+    box-shadow: 2px 3px 5px 1px gray;
+
+}
+
+.img-fluid-weather{
+    border: solid 3px grey;
+        border-radius: 4px;
+        box-shadow: 2px 3px 5px 1px gray;
+        margin-top: 100px;
+}
+
+.img-fluid-dic{
+    border: solid 3px grey;
+        border-radius: 4px;
+        margin-top: 100px;
+        box-shadow: 2px 3px 5px 1px gray;
+}
+
+
+
 
 .fa-github{
     margin-right: 40px;
@@ -176,7 +204,8 @@ color: #6C63FF;
     max-width: 960px;
     padding-left: 80px ;
     margin-bottom: 50px;
-    margin-top: 100px;
+    margin-top: 180px;
+    box-shadow: 2px 3px 5px 5px grey;
 
 
 }
