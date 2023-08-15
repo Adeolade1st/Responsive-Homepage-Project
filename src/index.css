@@ -3,7 +3,7 @@
         font-size: 50px;
         text-align: center;
         
-        line-height: 100px;
+        line-height: 50px;
 
     }
 
@@ -14,9 +14,10 @@
 }
 
 @media (max-width: 900px) {
-    .fs {
-        font-size: 20px;
+    .mt-1{
+        font-size: 12px;
         text-align: center;
+        color: red;
     
 
     }
@@ -44,6 +45,9 @@
         line-height: 27px;
         padding: 15px 30px;
         font-family: var(--primary-Font-Style);
+        border: solid 3px grey;
+            border-radius: 4px;
+            box-shadow: 2px 3px 3px 1px gray;
 }
 
 .btn-branding:hover {
@@ -111,6 +115,9 @@
     width: 200px;
     height: 60px;
     margin-top: 50px;
+    border: solid 3px grey;
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px 1px gray;
 
 }
 
