@@ -25,10 +25,6 @@
         --background-color: #F9F7FE;
 }
 
-.hero {
-        text-align: center;
-        background-color: var(--background-color);
-}
 
 
 .btn-branding {
@@ -38,35 +34,22 @@
         font-size: 18px;
         line-height: 27px;
         padding: 15px 30px;
+        border: solid 3px grey;
+                border-radius: 4px;
+                box-shadow: 2px 3px 3px 1px gray;
        
 }
 
 .btn-branding:hover {
         background-color: #BBCEE4;
+                border-color: #BBCEE4;
+                color: blue;
 
 }
 
-.hello {
-        color: #272142;
-        text-align: center;
-        font-family: var(--primary-Font-Style);
-        font-size: 2.25rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-top: 150px;
-}
 
 
-.feature {
-        text-align: center;
-        line-height: 27px;
-        font-weight: 400px;
-        size: 18px;
-        color: black;
-        font-family: var(--primary-Font-Style);
 
-}
 
 .fs {
         font-family: var(--secondary-Font-Style);
@@ -105,6 +88,9 @@
         width: 200px;
         height: 60px;
         margin-top: -50px;
+        border: solid 3px grey;
+                border-radius: 4px;
+                box-shadow: 2px 3px 3px 1px gray;
         
 
 }
@@ -112,7 +98,7 @@
 .btn-branding-outline:hover {
         background-color: #BBCEE4;
         border-color: #BBCEE4;
-        color: black;
+        color: blue;
 }
 
 .col {
@@ -236,19 +222,6 @@ a:hover {
 
 
 
-
-
-
-
-h4 {
-        text-align: center;
-        font-family: var(--primary-Font-Style);
-        size: 10px;
-        color: #272142;
-        margin-top: 40px;
-}
-
-
 h1 {
         font-family: var(--secondary-Font-Style);
         font-size: 56px;
@@ -261,16 +234,5 @@ h1 {
 
 body{
        background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
-}
-
-h3 {
-
-        font-family: var(--secondary-Font-Style);
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: black;
 }
 
