@@ -205,6 +205,11 @@
 
 }
 
+.github {
+        color: #6C63FF;
+        font-size: 14px;
+}
+
 a {
         text-align: center;
         text-decoration: none;
