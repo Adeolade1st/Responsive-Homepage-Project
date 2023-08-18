@@ -5,31 +5,13 @@
 
 
         .btn-branding {
-                background-color: #BBCEE4;
-                border-radius: 4px;
-                color: black;
+                
                 line-height: 15px;
                 padding: 5px 10px;
-                font-family: var(--primary-Font-Style);
-                border: solid 1px #BBCEE4;
-                ;
-                border-radius: 4px;
-                box-shadow: 1px 1px 1px 1px gray;
+       
         }
 
-        .btn-branding:hover {
-                background-color: #BBCEE4;
-                color: #6C63FF;
-                border-color: #BBCEE4;
-        }
-
-        .contactlink {
-                text-decoration: none;
-                color: black;
-                font-family: var(--primary-Font-Style);
-                font-size: 18px;
-        }
-
+     
         .contactlink:hover {
                 color: #6C63FF;
         }
