@@ -1,23 +1,42 @@
-@media (max-width: 900px) {
-        .heading {
-                font-size: 50px;
-                text-align: center;
-                color: #6C63FF;
-
+@media screen and (max-width: 767px) {
+        h1 {
+                font-size: 20px;
         }
+
+
+        .btn-branding {
+                background-color: #BBCEE4;
+                border-radius: 4px;
+                color: black;
+                line-height: 15px;
+                padding: 5px 10px;
+                font-family: var(--primary-Font-Style);
+                border: solid 1px #BBCEE4;
+                ;
+                border-radius: 4px;
+                box-shadow: 1px 1px 1px 1px gray;
+        }
+
+        .btn-branding:hover {
+                background-color: #BBCEE4;
+                color: #6C63FF;
+                border-color: #BBCEE4;
+        }
+
+        .contactlink {
+                text-decoration: none;
+                color: black;
+                font-family: var(--primary-Font-Style);
+                font-size: 18px;
+        }
+
+        .contactlink:hover {
+                color: #6C63FF;
+        }
+
+
+
 }
-
-
-        @media (max-width: 900px) {
-                        .work-enquiry {
-                                font-size: 30px;
-                                text-align: center;
-                                font-family: var(--secondary-Font-Style);
-        
-        
-                        }
-}
-
 
 :root {
         --primary-Font-Style: 'Poppins', sans-serif;
@@ -34,9 +53,9 @@
         font-size: 18px;
         line-height: 27px;
         padding: 15px 30px;
-        border: solid 3px grey;
+        border: solid 1px #BBCEE4;
                 border-radius: 4px;
-                box-shadow: 2px 3px 3px 1px gray;
+                box-shadow: 1px 1px 1px 1px gray;
        
 }
 
@@ -88,9 +107,9 @@
         width: 200px;
         height: 60px;
         margin-top: -50px;
-        border: solid 3px grey;
+        border: solid 1px #BBCEE4;
                 border-radius: 4px;
-                box-shadow: 2px 3px 3px 1px gray;
+                box-shadow: 1px 1px 1px 1px gray;
         
 
 }

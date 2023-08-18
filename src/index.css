@@ -3,8 +3,42 @@
         font-size: 20px;
     }
 
+
+    .btn-branding{
+        background-color: #BBCEE4;
+            border-radius: 4px;
+            color: black;
+            line-height: 15px;
+            padding: 5px 10px;
+            font-family: var(--primary-Font-Style);
+            border: solid 1px #BBCEE4;
+            ;
+            border-radius: 4px;
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+
+                .btn-branding:hover {
+                    background-color: #BBCEE4;
+                    color: #6C63FF;
+                    border-color: #BBCEE4;
+                }
+
+                                .contactlink {
+                                    text-decoration: none;
+                                    color: black;
+                                    font-family: var(--primary-Font-Style);
+                                    font-size: 18px;
+                                }
+                
+                                .contactlink:hover {
+                                    color: #6C63FF;
+                                }
+
+
+
+    }
     
-}
+
 
 
 :root {
@@ -28,14 +62,15 @@
         line-height: 27px;
         padding: 15px 30px;
         font-family: var(--primary-Font-Style);
-        border: solid 3px grey;
+        border: solid 1px #BBCEE4;;
             border-radius: 4px;
-            box-shadow: 2px 3px 3px 1px gray;
+            box-shadow: 1px 1px 1px 1px gray;
 }
 
 .btn-branding:hover {
     background-color: #BBCEE4;
     color: #6C63FF;
+    border-color: #BBCEE4;
 }
 
 .hello {
@@ -83,31 +118,6 @@
     padding-left: 40px;
     padding-right: 40px;
 
-}
-
-.btn-branding-outline {
-    margin-left: 40px;
-    background-color: #BBCEE4;
-    color: black;
-    border: 1px #BBCEE4 solid;
-    padding-top: 18px;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500px;
-    font-family: var(--primary-Font-Style);
-    width: 200px;
-    height: 60px;
-    margin-top: 50px;
-    border: solid 3px grey;
-    border-radius: 4px;
-    box-shadow: 2px 3px 3px 1px gray;
-
-}
-
-.btn-branding-outline:hover {
-    background-color: #BBCEE4;
-    border-color: #BBCEE4;
-    color: #6C63FF;
 }
 
 .col{
