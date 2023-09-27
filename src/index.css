@@ -55,8 +55,8 @@
         padding: 15px 30px;
         font-family: var(--primary-Font-Style);
         border: solid 1px #BBCEE4;;
-            border-radius: 4px;
-            box-shadow: 1px 1px 1px 1px gray;
+        box-shadow: 1px 1px 1px 1px gray;
+        margin-left: 40px;
 }
 
 .btn-branding:hover {
@@ -103,12 +103,14 @@
 .description {
     font-family: var(--primary-Font-Style);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 2.0;
     opacity: 70%;
     margin-bottom: 48px;
     padding-left: 40px;
     padding-right: 40px;
+    text-align: left;
+    margin-top: 50px;
 
 }
 
@@ -121,6 +123,8 @@
    
    
 }
+
+
 
 .img-fluid{
     margin-top: 65px;
